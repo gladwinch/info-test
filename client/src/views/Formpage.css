@@ -1,0 +1,35 @@
+.form-contaier {
+    border-radius: 8px;
+}
+
+.sub-text {
+    color: rgb(184, 184, 184);
+}
+
+li {list-style-type: none;}
+
+.suggestionCard {
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    top: 68px;
+    color: green;
+    width: 96.5%;
+    padding: 0;
+    padding-bottom: 6px;
+    border-left: solid 1px rgb(211, 211, 211);
+    border-right: solid 1px rgb(211, 211, 211);
+    border-bottom: solid 1px rgb(211, 211, 211);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.suggestionItem {
+    transition: 0.2s;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+.suggestionItem:hover {
+    background-color: rgba(49, 168, 85, 0.384);
+}
